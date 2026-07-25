@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-[#090d16] text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-white;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Background Grid Pattern */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.glow-gradient {
+  background: radial-gradient(circle at 50% 0%, rgba(6, 182, 212, 0.15), rgba(139, 92, 246, 0.08), transparent 70%);
+}
+
+.glass-card {
+  @apply bg-slate-900/60 backdrop-blur-md border border-slate-800/80 rounded-2xl hover:border-cyan-500/40 transition-all duration-300;
+}
