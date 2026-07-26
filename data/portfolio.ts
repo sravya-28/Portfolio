@@ -50,7 +50,7 @@ export const PORTFOLIO_DATA = {
     name: "SRAVYA VEMURI",
     role: "AI & ML Engineer / Full Stack Developer",
     tagline: "Building intelligent computer vision systems, robust machine learning pipelines, and responsive web applications.",
-    bio: "Computer Science & Engineering graduate specializing in Artificial Intelligence and Machine Learning (8.35 CGPA). Passionate about turning raw data and deep learning models into production-ready web platforms that solve real-world problems — from civic automation to healthcare decision support.",
+    bio: "B.Tech Graduate in Computer Science & Engineering specializing in Artificial Intelligence and Machine Learning (8.35 CGPA). Passionate about turning raw data, computer vision models, and deep learning into production-ready web applications — from civic automation to healthcare decision support.",
     location: "Andhra Pradesh, India",
     email: "vemurisravya3@gmail.com",
     phone: "+91 7671958208",
@@ -118,7 +118,7 @@ export const PORTFOLIO_DATA = {
     {
       id: "civic-issue-detection",
       title: "AI-Driven Civic Issues Detection & Automated Reporting System",
-      subtitle: "Final Year B.Tech Engineering Project",
+      subtitle: "B.Tech Major Capstone Project",
       description: "An automated computer vision system that detects road surface defects (potholes and cracks) from imagery, evaluates damage severity using trained CNN models, and dispatches automated alerts to municipal authorities.",
       highlights: [
         "Built and trained Convolutional Neural Network (CNN) models for road damage classification",

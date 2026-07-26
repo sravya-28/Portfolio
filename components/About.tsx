@@ -42,7 +42,7 @@ export default function About() {
               
               <div className="space-y-4 text-slate-300 leading-relaxed text-sm sm:text-base">
                 <p>
-                  I am a final-year <strong className="text-cyan-300">B.Tech graduate in Computer Science and Engineering (Artificial Intelligence & Machine Learning)</strong> at Dhanekula Institute of Engineering & Technology, holding an <strong className="text-cyan-300">8.35 CGPA</strong>.
+                  I am a <strong className="text-cyan-300">B.Tech Graduate in Computer Science and Engineering (Artificial Intelligence & Machine Learning)</strong> from Dhanekula Institute of Engineering & Technology, holding an <strong className="text-cyan-300">8.35 CGPA</strong>.
                 </p>
                 <p>
                   My expertise spans end-to-end Machine Learning workflows — from data collection, annotation, and feature engineering to model training, hyperparameter optimization, and deployment. I have built real-world deep learning solutions including a <strong className="text-slate-100">CNN-based computer vision civic reporting system</strong> and a <strong className="text-slate-100">80.3% accurate Random Forest clinical prediction model</strong>.
